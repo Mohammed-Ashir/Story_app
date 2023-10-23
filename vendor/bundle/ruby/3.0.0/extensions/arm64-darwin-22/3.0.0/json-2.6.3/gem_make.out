@@ -1,0 +1,17 @@
+current directory: /Users/anukulrawat/Desktop/perfect/story-app/story_app/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json/ext/generator
+/Users/anukulrawat/.rbenv/versions/3.0.2/bin/ruby -I /Users/anukulrawat/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20231023-71339-rtd18s.rb extconf.rb
+creating Makefile
+
+current directory: /Users/anukulrawat/Desktop/perfect/story-app/story_app/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json/ext/generator
+make DESTDIR\= clean
+
+current directory: /Users/anukulrawat/Desktop/perfect/story-app/story_app/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json/ext/generator
+make DESTDIR\=
+compiling generator.c
+linking shared-object json/ext/generator.bundle
+ld: warning: -undefined dynamic_lookup is deprecated on iOS Simulator
+ld: building for iOS Simulator, but linking in dylib built for macOS, file '/Users/anukulrawat/.rbenv/versions/3.0.2/lib/libruby.3.0.dylib' for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [generator.bundle] Error 1
+
+make failed, exit code 2
